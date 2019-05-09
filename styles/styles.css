@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Patua+One');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #0d0417;
+    background: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Patua One", serif;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+section.section{
+    padding: 45px 0;
+}
+
+/* INICIO */
+
+#inicio h2{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width: 480px){
+    #inicio .inicio-intro{
+        background-color: rgba(71,12,104,0.9);
+    }
+}
+
+/* APRESENTACAO */
+#apresentacao{
+    /* background-color: #013243; */
+    background-color: #ecf0f1;
+}
+
+#apresentacao h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+/* SERVICOS */
+#servicos{
+    /* background-color: #247BA0; */
+    background-color: #470c68;
+}
+
+#servicos h2{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+#servicos .card{
+    transition: transform 0.2s ease-out;
+    background-color: #ecf0f1;
+}
+
+#servicos .card:hover{
+    transform: scale(1.1);
+}
+
+/* CONTATO */
+#contato{
+    background-color: #FFE066;
+}
+
+#contato .card{
+    background-color: #ecf0f1;
+}
+
+/* DEPOIMENTO */
+#depoimentos{
+    background-color: #ecf0f1;
+}
+
+#depoimentos .card{
+    transition: all 0.2s linear;
+    background-color: #ecf0f1;
+}
+
+#depoimentos .card:hover{
+    background-color: #e4e9ed;
+}
+
+.depo-img{
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 15px;
+}
